@@ -19,7 +19,7 @@ function calculateChange(amountToBeReturned){
 }
 
 function validateBillAmountAndCashAmount(){
-    message.getElementsByClassName.display = "none";
+     message.getElementsByClassName.display = "none";
 
     if(billAmount.value > 0){
         if(cashGiven.value > billAmount.value){
@@ -30,7 +30,7 @@ function validateBillAmountAndCashAmount(){
             showMessage("the cash provided should be atleast equal to the bill amount");
     }
     
-    } else{
+    }else{
         showMessage("Invalid bill amount")
     }
 } 
