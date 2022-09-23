@@ -4,11 +4,18 @@
             font-family: 'Open Sans', sans-ser;
             background-color: rgb(122, 33, 33);
             color: white;
+            margin: 2rem;
             
         } 
 
 .container { 
     display: flex;
-    flex-direction: column;
-    width: 50vw; 
+     flex-direction: column; 
+    width: 90vw; 
+}
+#check-button{
+    margin-top: 2rem;
+}
+h1{
+    text-align: center;
 }
